@@ -23,9 +23,20 @@
         /* SOCIAL STYLES */
         .social-link {
             background: rgba(150, 150, 150, .5);
-            color: #00f;
+            border-radius: 99px;
+            box-sizing: border-box;
+            color: #fff;
             display: inline-block;
-            height: 36px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            font-weight: bold;
+            height: 2.5em;
+            line-height: 1;
+            padding-top: 0.85em;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
+            width: 2.5em;
         }
         .social-list {
             list-style: none;
@@ -34,10 +45,13 @@
         }
         .social-list > li {
             display: inline-block;
+            margin: 0 0.5em;
         }
         /* BIO STYLES */
         .bio-wrapper {
             font-size: 24px;
+            margin: 0 auto 30px;
+            max-width: 968px;
             overflow: hidden;
         }
         .bio-wrapper:after {
@@ -50,20 +64,29 @@
         }
         .bio-box {
             border: 1px solid black;
+            border-color: transparent black black transparent;
             box-sizing: border-box;
-            font-size: 1rem;
             float: left;
+            font-size: 1rem;
+            margin: 40px 1% 0;
             padding: 2%;
-            width: 25%;
+            width: 23%;
         }
         .bio-box > a {
             color: #c68bf9;
         }
         .bio-box h3 {
+            color: #fff;
             font-size: 1.5em;
+            margin: -40px 0 1em;
+            text-align: center;
+        }
+        .bio-box img {
+            width: 100%;
         }
         .bio-copy {
             font-size: 1em;
+            line-height: 1.35;
         }
         .bio-copy a {
             color: green;
@@ -75,21 +98,22 @@
         <h1>I'm an h1</h1>
         <ul class="social-list">
             <li>
-                <a href="https://example.com/" class="social-link">Link 1</a>
+                <a href="https://example.com/" class="social-link">FB</a>
             </li>
             <li>
-                <a href="https://example.com/" class="social-link">Link 2</a>
+                <a href="https://example.com/" class="social-link">TW</a>
             </li>
             <li>
-                <a href="https://example.com/" class="social-link">Link 3</a>
+                <a href="https://example.com/" class="social-link">GH</a>
             </li>
         </ul>
         </div>
     <h2>I'm an h2</h2>
     <div class="bio-wrapper">
         <div class="bio-box">
+            <img src="https://placekitten.com/g/400/400" alt="A random kitten">
             <h3>Michael Hartl</h3>
-            <a href="https://twitter.com/mhartl" class="social-link">here</a>
+            <a href="https://twitter.com/mhartl" class="social-link">TW</a>
             <div class="bio-copy">
             <p>
                 Known for his dazzling charm, rapier wit, and unrivaled humility, Michael is the creator of the <a href="https://www.railstutorial.org">Ruby on Rails Tutorial</a> and principal author of the <a href="https://learnenough.com">Learn Enough to Be Dangerous</a> introductory sequence. Michael is also notorious as the founder of <a href="http://tauday.com">Tau Day</a> and author of <a href="http://tauday.com/tau-manifesto"><em>The Tau Manifesto</em></a>, but rumors that he's secretly a supervillain are slightly exaggerated.
@@ -97,8 +121,9 @@
             </div>
         </div>
         <div class="bio-box">
+            <img src="https://placekitten.com/g/400/400" alt="A random kitten">
             <h3>Lee Donahoe</h3>
-            <a href="https://twitter.com/leedonahoe" class="social-link">here</a>
+            <a href="https://twitter.com/leedonahoe" class="social-link">TW</a>
             <div class="bio-copy">
             <p>
                 When he's not literally swimming with sharks or hunting powder stashes on his snowboard, you can find Lee in front of his computer designing interfaces, doing front-end development, or writing some of the interface-related Learn Enough tutorials.
@@ -106,8 +131,9 @@
             </div>
         </div>
         <div class="bio-box">
+            <img src="https://placekitten.com/g/400/400" alt="A random kitten">
             <h3>Nick Merwin</h3>
-            <a href="https://twitter.com/nickmerwin" class="social-link social-show">here</a>
+            <a href="https://twitter.com/nickmerwin" class="social-link social-show">TW</a>
             <div class="bio-copy">
             <p>
                 You may have seen him shredding guitar live with Capital Cities on Jimmy Kimmel, Conan, or The Ellen Show, but rest assured Nick is a true nerd at heart. He's just as happy shredding well-spec'd lines of code from a tour bus as he is from his kitchen table.
@@ -115,6 +141,7 @@
             </div>
         </div>
         <div class="bio-box">
+            <img src="https://placekitten.com/g/400/400" alt="A random kitten">
             <h3>??</h3>
             <div class="bio-copy">
             <p>
