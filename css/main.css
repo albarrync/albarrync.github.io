@@ -26,11 +26,22 @@ body {
     text-decoration: none;
     text-transform: uppercase;
   }
+  .header-nav a:hover,
+  .header-nav a:active {
+      color: #ed6e2f;
+  }
+  .header-logo:hover,
+  .header-logo:active {
+      opacity: 0.5;
+  }
 
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
   height: 50vh;
+}
+.full-hero:hover {
+    background-color: #1818ff;
 }
 
 /* SOCIAL STYLES */
