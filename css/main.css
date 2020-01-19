@@ -40,9 +40,6 @@ body {
   background-color: #c7dbfc;
   height: 50vh;
 }
-.full-hero:hover {
-    background-color: #1818ff;
-}
 
 /* SOCIAL STYLES */
 .social-link {
@@ -61,6 +58,9 @@ body {
   text-decoration: none;
   vertical-align: middle;
   width: 2.5em;
+}
+.social-link:hover {
+    background-color: #18b4ff;
 }
 .social-list {
   list-style: none;
