@@ -239,6 +239,7 @@ h2 ~ p {
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
+  box-shadow: 0px 10px 10px 0 #000;
   height: 25vh;
   position: sticky;
 }
@@ -278,7 +279,7 @@ h2 ~ p {
   background-color: #3258a8;
 }
 .github-link:hover {
-  background-color: #000;
+  background-color: #222;
 }
 
 /* BIO STYLES */
