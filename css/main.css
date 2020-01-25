@@ -274,6 +274,12 @@ h2 ~ p {
 .twitter-link:hover {
   background-color: #34b4eb;
 }
+.facebook-link:hover {
+  background-color: #3258a8;
+}
+.github-link:hover {
+  background-color: #000;
+}
 
 /* BIO STYLES */
 .bio-wrapper {
