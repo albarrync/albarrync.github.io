@@ -269,6 +269,10 @@ h2 ~ p {
 .social-list > li {
   display: inline-block;
   margin: 0 0.5em;
+  padding-top: 20px;
+}
+.twitter-link:hover {
+  background-color: #34b4eb;
 }
 
 /* BIO STYLES */
