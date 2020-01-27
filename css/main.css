@@ -155,13 +155,12 @@ h2 ~ p {
 .under-fade {
   padding-top: 15px;
 }
-h3 {
+.body-h3 {
   font: bold;
   font-size: 1.5em;
   padding-top: 1.5em;
   text-align: center;
 }
-
 /* HEADER STYLES */
 .header {
   background-color: #000;
@@ -311,6 +310,7 @@ h3 {
 .bio-box h3 {
   color: #fff;
   font-size: 1.5em;
+  text-shadow: 1px 1px 3px #000;
   margin: -40px 0 1em;
   text-align: center;
 }
