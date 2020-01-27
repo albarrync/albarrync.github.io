@@ -247,6 +247,7 @@ h2 ~ p {
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
+  background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 10px 10px 0 #000;
   box-sizing: border-box;
