@@ -350,14 +350,22 @@ h2 ~ p {
   margin: 0 0.5em;
   padding-top: 20px;
 }
+.twitter-link img {
+  width: 30px;
+  transform: translate(0, -25%);
+}
 .twitter-link:hover {
   background-color: #34b4eb;
 }
 .facebook-link:hover {
   background-color: #3258a8;
 }
+.github-link img {
+  width: 41px;
+  transform: translate(-1%, -34%);
+}
 .github-link:hover {
-  background-color: #222;
+  background-color: #ed6e2f;
 }
 
 /* BIO STYLES */
