@@ -142,8 +142,14 @@ h1 {
   font-size: 7vw;
   margin-top: 0;
 }
+h2 {
+  font-size: 2em;
+}
 a {
-  color: #f00;
+  color: #6397b5;
+}
+p {
+  line-height: 1.5;
 }
 h2 ~ p {
   font-size: 0.8em;
@@ -151,6 +157,28 @@ h2 ~ p {
   margin: 1em auto 0;
   max-width: 70%;
   text-align: center;
+}
+.home-section {
+  margin: 6rem auto;
+  max-width: 980px;
+  width: 90vw;
+}
+.home-section h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.home-callout {
+  background-color: #000;
+  color: #fff;
+  padding-top: 7vh 0;
+}
+.callout-title {
+  font-size: 5.75vw;
+  text-align: right;
+  text-transform: uppercase;
+}
+.callout-copy {
+  font-size: 0.8rem;
 }
 .under-fade {
   padding-top: 15px;
@@ -258,6 +286,17 @@ h2 ~ p {
   text-align: center;
   text-transform: uppercase;
 }
+.full-hero::after {
+  border: 10px solid;
+  border-color: #fff transparent transparent transparent;
+  bottom: 2vh;
+  content: "";
+  height: 0;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  width: 0;
+}
 .hero-content {
   color: #fff;
   position: relative;
@@ -329,20 +368,20 @@ h2 ~ p {
   overflow: hidden;
 }
 .bio-box {
-  border: 1px solid black;
   box-sizing: border-box;
   float: left;
   font-size: 1rem;
-  margin: 40px 1% 0;
-  padding: 2%;
-  width: 23%;
+  margin: 6rem 0 0;
+  padding: 0 3%;
+  width: 25%;
 }
 .bio-box h3 {
   color: #fff;
   font-size: 1.5em;
   text-shadow: 1px 1px 3px #000;
-  margin: -40px 0 1em;
   text-align: center;
+  text-transform: uppercase;
+  margin: -60px 0 1em;
 }
 .bio-box img {
   width: 100%;
@@ -352,7 +391,7 @@ h2 ~ p {
   margin: 2em 0 1em;
 }
 .bio-copy {
-  font-size: 1em;
+  font-size: 0.75em;
 }
 .bio-copy a {
   color: green;
