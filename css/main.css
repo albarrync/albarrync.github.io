@@ -426,6 +426,7 @@ h2 ~ p {
 }
 .gallery-thumbs .current img {
   box-shadow: 0 0 0 5px #ed6e2f;
+  cursor: default;
   opacity: 1;
 }
 
