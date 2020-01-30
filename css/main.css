@@ -142,6 +142,7 @@ body {
   min-height: 100vh;
 }
 .content-container {
+  display: flex;
   flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
@@ -332,6 +333,102 @@ h2 ~ p {
   background-position: center top;
 }
 
+/* BIO STYLES */
+.bio-wrapper {
+  font-size: 24px;
+  margin: auto;
+  max-width: 960px;
+  overflow: hidden;
+}
+.bio-box {
+  box-sizing: border-box;
+  float: left;
+  font-size: 1rem;
+  margin: 6rem 0 0;
+  padding: 0 3%;
+  width: 25%;
+}
+.bio-box h3 {
+  color: #fff;
+  font-size: 1em;
+  text-shadow: 1px 1px 3px #000;
+  text-align: center;
+  text-transform: uppercase;
+  margin: -30px 0 1em;
+}
+.bio-box img {
+  width: 100%;
+}
+.bio-box .social-link {
+  display: block;
+  margin: 2em 0 1em;
+}
+.bio-copy {
+  font-size: 0.75em;
+}
+.bio-copy a {
+  color: green;
+}
+
+/* COLUMN STYLES */
+.col-three {
+  display: flex;
+  flex: 1;
+}
+.col {
+  box-sizing: border-box;
+  padding: 2em;
+}
+.col-three .col ~ .col {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.col-three .col-nav {
+  flex: 0 1 15em;
+}
+.col-three .col-content {
+  flex: 1;
+}
+.col-three .col-aside {
+  flex: 0 1 20em;
+}
+
+/* GALLERY STYLES */
+.gallery-info {
+  font-size: 0.8rem;
+}
+.gallery-info h3 {
+  margin-bottom: 1em;
+}
+.gallery-photo {
+  position: relative;
+}
+.gallery-photo img {
+  width: 100%;
+}
+.gallery-thumbs {
+  height: 90vh;
+  overflow: scroll;
+}
+.gallery-thumbs > div {
+  cursor: pointer;
+}
+.gallery-thumbs img {
+  box-sizing: border-box;
+  box-shadow: 0 0 0 5px transparent;
+  display: inline-block;
+  margin: 0 0 10px;
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+.gallery-thumbs img:hover {
+  opacity: 1;
+}
+.gallery-thumbs .current img {
+  box-shadow: 0 0 0 5px #ed6e2f;
+  opacity: 1;
+}
+
 /* SOCIAL STYLES */
 .social-list {
   list-style: none;
@@ -383,41 +480,4 @@ h2 ~ p {
 .github-link:hover,
 .github-link:active {
   background-color: #000;
-}
-
-/* BIO STYLES */
-.bio-wrapper {
-  font-size: 24px;
-  margin: auto;
-  max-width: 960px;
-  overflow: hidden;
-}
-.bio-box {
-  box-sizing: border-box;
-  float: left;
-  font-size: 1rem;
-  margin: 6rem 0 0;
-  padding: 0 3%;
-  width: 25%;
-}
-.bio-box h3 {
-  color: #fff;
-  font-size: 1em;
-  text-shadow: 1px 1px 3px #000;
-  text-align: center;
-  text-transform: uppercase;
-  margin: -30px 0 1em;
-}
-.bio-box img {
-  width: 100%;
-}
-.bio-box .social-link {
-  display: block;
-  margin: 2em 0 1em;
-}
-.bio-copy {
-  font-size: 0.75em;
-}
-.bio-copy a {
-  color: green;
 }
