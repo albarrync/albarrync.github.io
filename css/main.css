@@ -507,6 +507,7 @@ h2 ~ p {
   max-width: 980px;
   width: 90vw;
   text-align: center;
+  padding-top: 2em;
 }
 .home-callout {
   align-items: center;
