@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Old Post
-postHero: /images/shark.jpg
-author: Alex B
+postHero: /images/porsche.jpeg
+author: Son N
 authorTwitter: https://twitter.com/albarrync
-gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150
+gravatar: /images/logo.png
 postFooter: Additional Information and maybe a <a href="#">link or two</a>
 ---
 
