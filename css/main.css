@@ -167,27 +167,11 @@ p {
   margin: 0.75em 0;
 }
 h2 ~ p {
-  font-size: 0.8em;
+  font-size: 1em;
   font-style: italic;
   margin: 1em auto 0;
   max-width: 70%;
   text-align: center;
-}
-
-/* MEDIA QUERY */
-@media (max-width: 800px) {
-  html {
-    box-shadow: none;
-    padding: 0;
-  }
-  .post-aside {
-    display: none;
-  }
-}
-@media (max-width: 600px) {
-  .half-hero {
-    display: none;
-  }
 }
 
 /* HEADER STYLES */
@@ -442,7 +426,7 @@ h2 ~ p {
   margin: 2em 0 1em;
 }
 .bio-copy {
-  font-size: 0.75em;
+  font-size: 1em;
 }
 .bio-copy a {
   color: green;
@@ -520,7 +504,6 @@ h2 ~ p {
 
 /* HOMEPAGE */
 .home-section {
-  /* max-width: 980px; */
   width: 90vw;
   text-align: center;
   padding: 2em auto;
@@ -638,4 +621,86 @@ h2 ~ p {
 .github-link:hover,
 .github-link:active {
   background-color: #000;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+
+  /* MEDIA BLOG */
+  .blog-recent {
+    text-align: center;
+    padding: 0;
+  }
+  .blog-previews {
+    padding: 0;
+  }
+  .col-two {
+    flex-direction: column-reverse;
+  }
+  .col-two .col-aside {
+    margin-bottom: 3em;
+  }
+
+  /* MEDIA GALLERY */
+  .gallery {
+    flex-direction: column;
+  }
+  .gallery .col {
+    padding: 1em;
+  }
+  .gallery .gallery-thumbs {
+    flex: 1;
+    height: auto;
+    white-space: nowrap;
+    width: 100vw;
+  }
+  .gallery-thumbs > div {
+    display: inline-block;
+  }
+  .gallery-thumbs img {
+    height: 7vh;
+    margin: 0 10px 0 0;
+    width: auto;
+  }
+  .gallery .gallery-info {
+    flex: 1;
+  }
+  /* MEDIA HEADER */
+  .header-nav {
+    padding: 2vh 1em 0 0;
+  }
+  .header-nav > li {
+    margin-left: 0.25em;
+  }
+  .header-nav > li ~ li {
+    padding-left: 0.25em;
+  }
+  .nav-links a {
+    font-size-adjust: 3.25vw;
+  }
+  .header-logo {
+    left: auto;
+  }
+
+  /* MEDIA HOME */
+  .home-callout {
+    flex-direction: column;
+  }
+  .callout-copy {
+    flex: 1;
+  }
+  .bio-box {
+    float: none;
+    font-size: 1.3rem;
+    width: auto;
+  }
+}
+@media (max-width: 600px) {
+  .half-hero {
+    display: none;
+  }
 }
