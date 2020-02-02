@@ -542,6 +542,7 @@ h2 ~ p {
 }
 .home-section h4 {
   margin-bottom: 0.5em;
+  padding-top: 2em;
   text-align: center;
 }
 .home-section .post-header {
