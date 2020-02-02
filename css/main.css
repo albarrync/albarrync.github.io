@@ -174,6 +174,22 @@ h2 ~ p {
   text-align: center;
 }
 
+/* MEDIA QUERY */
+@media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+  .post-aside {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .half-hero {
+    display: none;
+  }
+}
+
 /* HEADER STYLES */
 .header {
   background-color: #000;
@@ -504,10 +520,11 @@ h2 ~ p {
 
 /* HOMEPAGE */
 .home-section {
-  max-width: 980px;
+  /* max-width: 980px; */
   width: 90vw;
   text-align: center;
-  padding-top: 2em;
+  padding: 2em auto;
+  margin-bottom: 4em;
 }
 .home-callout {
   align-items: center;
