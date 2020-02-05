@@ -521,7 +521,6 @@ h2 ~ p {
 }
 .drop-menu li {
   background-color: #fff;
-  color: #ed6e2f;
 }
 .drop-menu li ~ li {
   border-top: 1px dotted rgba(0, 0, 0, 0.1);
