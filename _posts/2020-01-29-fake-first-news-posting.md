@@ -3,7 +3,7 @@ layout: post
 title: Old Post
 postHero: /images/porsche.jpeg
 author: Son N
-authorTwitter: https://twitter.com/albarrync
+authorTwitter: https://twitter.com/billgates
 gravatar: /images/logo.png
 postFooter: Additional Information and maybe a <a href="#">link or two</a>
 ---
