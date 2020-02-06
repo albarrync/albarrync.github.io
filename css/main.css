@@ -242,6 +242,10 @@ h2 ~ p {
   text-decoration: none;
   text-transform: uppercase;
 }
+.mobile-menu-check,
+.show-mobile-menu {
+  display: none;
+}
 
 /* FOOTER STYLES */
 .footer {
@@ -793,6 +797,27 @@ h2 ~ p {
     float: none;
     font-size: 1.3rem;
     width: auto;
+  }
+
+  /* MEDIA MOBILE MENU */
+
+  .show-mobile-menu {
+    display: block;
+    float: right;
+    font-weight: bold;
+    margin-top: 1.5vh;
+    padding: 1.5em;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .header-nav {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .mobile-menu-check:checked ~ .header-nav {
+    max-height: 1000px;
   }
 }
 @media (max-width: 600px) {
