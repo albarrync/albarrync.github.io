@@ -225,12 +225,6 @@ h2 ~ p {
 .nav-links a:active {
   color: #ed6e2f;
 }
-.header-nav > li:first-child a {
-  color: #ed6e2f;
-}
-.header-nav > li:first-child a:hover {
-  color: #fff;
-}
 .header-nav a,
 .drop-trigger {
   color: #fff;
@@ -817,7 +811,7 @@ h2 ~ p {
     position: relative;
   }
   .header-nav {
-    background-color: #444;
+    background-color: rgba(20, 20, 20, 0.95);
     box-sizing: border-box;
     left: 0;
     max-height: 0;
@@ -841,8 +835,9 @@ h2 ~ p {
   .header-nav li:last-child {
     margin-bottom: 1em;
   }
-  .header-nav li:first-child a {
-    color: #fff;
+  .show-mobile-menu:hover {
+    color: #ed6e2f;
+    cursor: pointer;
   }
 
   /* HIDE DROPDOWN IN THE NAV MENU */
