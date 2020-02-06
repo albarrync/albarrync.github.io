@@ -408,7 +408,7 @@ h2 ~ p {
 .posts-image {
   background-position: center;
   background-size: cover;
-  height: 6em;
+  height: 10em;
   margin-bottom: 1.5em;
 }
 
@@ -429,17 +429,17 @@ h2 ~ p {
 }
 .bio-box h3 {
   color: #fff;
-  font-size: 1em;
+  font-size: 1.5em;
   text-shadow: 1px 1px 3px #000;
   text-align: center;
   text-transform: uppercase;
-  margin: -30px 0 1em;
+  margin: -40px 0 1em;
 }
 .bio-box img {
   width: 100%;
 }
 .bio-box .social-link {
-  display: block;
+  display: inline-block;
   margin: 2em 0 1em;
 }
 .bio-copy {
