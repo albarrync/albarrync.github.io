@@ -685,40 +685,37 @@ h2 ~ p {
   color: #fff;
   display: inline-block;
   font-family: helvetica, arial, sans;
-  font-size: 1rem;
+  font-size: 1.7em;
   font-weight: bold;
-  height: 2.5em;
+  height: 1.5em;
   line-height: 1;
-  padding-top: 0.85em;
+  padding-top: 0.25em;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
-  width: 2.5em;
+  width: 1.5em;
 }
 .social-list > li {
   display: inline-block;
   margin: 0 0.5em;
   padding-top: 20px;
 }
-.twitter-link img {
-  width: 40px;
-  transform: translate(0, -35%);
+.twitter-link {
+  text-indent: 1px;
 }
 .twitter-link:hover,
 .twitter-link:active {
   background-color: #34b4eb;
 }
-.facebook-link img {
-  width: 42px;
-  transform: translate(-3%, -36%);
+.facebook-link {
+  text-indent: 1px;
 }
 .facebook-link:hover,
 .facebook-link:active {
   background-color: #3258a8;
 }
-.github-link img {
-  width: 41px;
-  transform: translate(-1%, -34%);
+.github-link {
+  /* text-indent: 1px; */
 }
 .github-link:hover,
 .github-link:active {
