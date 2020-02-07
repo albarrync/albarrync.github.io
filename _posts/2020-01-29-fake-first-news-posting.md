@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Old Post
+title: Wunderful Porsche now open for business!
+description: This is just a fake blog post, alright?
 postHero: /images/porsche.jpeg
 author: Son N
 authorTwitter: https://twitter.com/billgates

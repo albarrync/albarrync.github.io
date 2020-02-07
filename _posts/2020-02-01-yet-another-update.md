@@ -1,6 +1,7 @@
 ---
 layout: post
-title: February Post
+title: First Quarter Sales All-Time High
+description: Numbers through the roof!
 postHero: /images/shark.jpg
 author: Alex B
 authorTwitter: https://twitter.com/albarrync
