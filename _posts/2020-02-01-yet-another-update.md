@@ -2,7 +2,7 @@
 layout: post
 title: First Quarter Sales All-Time High
 description: Numbers through the roof!
-postHero: /images/shark.jpg
+postHero: /images/keyboard.jpeg
 author: Alex B
 authorTwitter: https://twitter.com/albarrync
 gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150

@@ -482,7 +482,7 @@ h2 ~ p {
 
 /* HOMEPAGE */
 .home-section {
-  width: 90vw;
+  /* width: 90vw; */
   text-align: center;
   padding: 2em auto;
   margin-bottom: 4em;
