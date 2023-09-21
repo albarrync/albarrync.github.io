@@ -1,0 +1,97 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Alex Barry",
+    "label": "Software Engineer",
+    "image": "https://albarrync.github.io/images/ab_portrait.png",
+    "email": "alexb@hey.com",
+    "summary": "Alex Barry is a full-stack software developer from North Carolina who loves playing and repairing guitars and mountainbiking.",
+    "location": {
+      "city": "Charlotte"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Github - Personal",
+        "url": "https://github.com/albarrync"
+      },
+      {
+        "network": "GitHub",
+        "username": "Github - Work",
+        "url": "https://github.com/alexbHAG"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alex-barry-70562b21/"
+      },
+      {
+        "network": "Hey",
+        "url": "mailto:alexb@hey.com"
+      },
+      {
+        "network": "hackthebox",
+        "url": "https://app.hackthebox.com/users/1618518"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Hendrick Automotive Group",
+      "location": "Charlotte, NC",
+      "description": "Nationwide Automotive Retailer",
+      "position": "Software Developer",
+      "startDate": "2014-02-02",
+      "summary": "Software Developer for ~10 Internal Applications, including Monolith",
+      "highlights": [
+        "Modernized CI/CD for applications to reduce deployment time more than 80%",
+        "Automated data entry of 100+ dealerships for internal recognition program",
+        "Gracefully cutover file upload process to modernized API",
+        "Optimized ActionCable performance for realtime competition app"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Pfeiffer University",
+      "url": "https://www.pfeiffer.edu/",
+      "area": "Business",
+      "studyType": "Bachelor"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Professional",
+      "keywords": ["HTML", "CSS", "Javascript","Rails", "React"]
+    },
+    {
+      "name": "CI/CD",
+      "level": "Professional",
+      "keywords": ["Github Actions", "Heroku CI/CD", "TravisCI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Guitars",
+      "keywords": ["Fender", "Repair", "Luthiery"]
+    },
+    {
+      "name": "Outdoors",
+      "keywords": ["Mountainbiking", "Backpacking"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Gigbot",
+      "description": "Aggregates YouTube videos for guitar practice",
+      "keywords": ["Guitar", "Learning", "Setlists"],
+      "type": "application"
+    }
+  ]
+}
