@@ -1,6 +1,7 @@
-baseURL = "http://localhost"
+baseURL = "http://albarrync.github.io"
+languageCode = "en-us"
+title = "alexb"
 copyright = "Copyright © 2023"
-title = "alexb - home"
 enableRobotsTXT = true
 
 [markup]
