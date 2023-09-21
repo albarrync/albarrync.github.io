@@ -56,3 +56,27 @@ enableRobotsTXT = true
   [[module.mounts]]
     source = "node_modules/@tabler/icons/icons"
     target = "assets/tabler-icons"
+
+[params]
+  [params.prism]
+    languages = [
+      "ruby",
+      "erb",
+      "haml",
+      "jsx",
+      "tsx",
+      "json",
+      "javascript",
+      "markdown",
+      "diff",
+      "bash",
+      "python",
+      "sql",
+      "sass",
+      "scss"
+      ]
+    plugins = [
+      "normalize-whitespace",
+      "toolbar",
+      "copy-to-clipboard"
+    ]
