@@ -3,7 +3,7 @@
   "basics": {
     "name": "Alex Barry",
     "label": "Software Engineer",
-    "image": "https://albarrync.github.io/images/ab_portrait.png",
+    "image": "/ab_portrait.png",
     "email": "alexb@hey.com",
     "summary": "Alex Barry is a full-stack software developer from North Carolina who loves playing and repairing guitars and mountainbiking.",
     "location": {
