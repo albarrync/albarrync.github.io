@@ -4,6 +4,23 @@ title = "alexb"
 copyright = "Copyright © 2023"
 enableRobotsTXT = true
 
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog"
+    weight = 10
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume"
+    weight = 20
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   url = "/about"
+  #   weight = 30
+
 [markup]
   # (Optional) To be able to use all Prism plugins, the theme enables unsafe
   # rendering by default
@@ -81,3 +98,10 @@ enableRobotsTXT = true
       "toolbar",
       "copy-to-clipboard"
     ]
+
+author = "Alex Barry"
+description = "Alex Barry's Hugo Blog. Theme provided by Gruvbox."
+
+[params.logo]
+  text = "home"
+  url = "/"

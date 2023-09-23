@@ -40,7 +40,7 @@
       "location": "Charlotte, NC",
       "description": "Nationwide Automotive Retailer",
       "position": "Software Developer",
-      "startDate": "2014-02-02",
+      "startDate": "2020",
       "summary": "Software Developer for ~10 Internal Applications, including Monolith",
       "highlights": [
         "Modernized CI/CD for applications to reduce deployment time more than 80%",
@@ -48,14 +48,31 @@
         "Gracefully cutover file upload process to modernized API",
         "Optimized ActionCable performance for realtime competition app"
       ]
+    },
+    {
+      "name": "Hendrick Automotive Group",
+      "location": "Charlotte, NC",
+      "description": "Nationwide Automotive Retailer",
+      "position": "Help Desk Team Lead",
+      "startDate": "2017",
+      "endDate": "2020"
+    },
+    {
+      "name": "Hendrick Automotive Group",
+      "location": "Charlotte, NC",
+      "description": "Nationwide Automotive Retailer",
+      "position": "Systems Analyst",
+      "startDate": "2014",
+      "endDate": "2017"
     }
   ],
   "education": [
     {
       "institution": "Pfeiffer University",
       "url": "https://www.pfeiffer.edu/",
-      "area": "Business",
-      "studyType": "Bachelor"
+      "area": "Business Administration",
+      "studyType": "Bachelor of Science",
+      "endDate": "2011"
     }
   ],
   "skills": [
@@ -78,6 +95,10 @@
   ],
   "interests": [
     {
+      "name": "Technology",
+      "keywords": ["FOSS", "Homeserver", "AI/LLM", "Vim", "Privacy"]
+    },
+    {
       "name": "Guitars",
       "keywords": ["Fender", "Repair", "Luthiery"]
     },
@@ -86,11 +107,24 @@
       "keywords": ["Mountainbiking", "Backpacking"]
     }
   ],
+  "certificates": [{
+    "name": "The Joy of React",
+    "date": "2023-03-23",
+    "issuer": "Josh W. Comeau",
+    "url": "https://courses.joshwcomeau.com/certificate/641d1e28e59d192eb9cba1ee"
+  }],
   "projects": [
-    {
+        {
       "name": "Gigbot",
-      "description": "Aggregates YouTube videos for guitar practice",
+      "description": "Aggregate YouTube videos for guitar practice",
+      "highlights": [
+        "PostgreSQL Full Text Search",
+        "Hotwire",
+        "Magic Link Auth"
+      ],
       "keywords": ["Guitar", "Learning", "Setlists"],
+      "roles": ["Engineer"],
+      "entity": "Personal",
       "type": "application"
     }
   ]

@@ -1,8 +1,11 @@
-<footer>
+<footer style="display:block">
   <div class="copyright">
     {{ with $.Site.Copyright }}
       {{ . | safeHTML }}
     {{ end }}
+  </div>
+  <div>
+    created with <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/schnerring/hugo-theme-gruvbox">gruvbox</a>
   </div>
 </footer>
 
