@@ -1,5 +1,5 @@
 +++
-title = "The Journey of Self Learning"
+title = "The Journey of Self Study"
 date = "2022-01-18T23:58:03-04:00"
 author = "alexb"
 cover = ""
