@@ -24,7 +24,7 @@ It was fantastic~
 I believe the app you work on is running rails, and the mock app runs on a simple Sinatra server. The real beauty is that if your docker compose works, you get Redis, Sidekiq(after one setup step done manually for illustration), and a few other items for the whole ecosystem. It's rare for me to read a tech book with disparate services that has no friction after setup. The elegant architecture made it really easy to focus on learning and absorbing the concepts, and not worry about service versions.
 
 ## Technical Depth
-The book itself is short and to-the-point, but I found it to be a perfect balance for what I needed. I learned quite a bit of material, significant information, even though I have setup and worked on Sidekiq and Redis before. I really enjoyed the way that the book presented a realistic problem, and walked you through how to practically solve it - instead of just saying "This is how Sidekiq works."
+The book itself is short and to-the-point, but I found it to be a perfect balance for what I needed. I learned quite a bit of materially significant information, even though I have setup and worked on Sidekiq and Redis before. I really enjoyed the way that the book presented a realistic problem, and walked you through how to practically solve it - instead of just saying "This is how Sidekiq works."
 
 At a very digestible 64 pages, I will have no reservations about suggesting this book to absolutely anyone who dare mention "Sidekiq".
 I really wish DBC would make a book exactly like this for all the main Rails-adjacent services.
@@ -39,5 +39,11 @@ Favorite quote from the book:
 
 Definitely worth your time!
 [Buy on PragProg](https://pragprog.com/titles/dcsidekiq/ruby-on-rails-background-jobs-with-sidekiq/)
+
+### See Also
+
+Some related podcasts from my new favorite, [YAGNI](https://yagni.fm/)
+* [Programming Books w/ Aaron Francis](https://yagni.fm/episodes/programming-books-w-aaron-francis)
+* [Redis w/ Nate Berkopec](https://yagni.fm/episodes/redis-w-nate-berkopec)
 
 
