@@ -41,12 +41,13 @@
       "description": "Nationwide Automotive Retailer",
       "position": "Software Developer",
       "startDate": "2020",
-      "summary": "Software Developer for ~10 Internal Applications, including Monolith",
+      "summary": "Software Developer for ~15 Internal Applications, including Monolith",
       "highlights": [
-        "Modernized CI/CD for applications to reduce deployment time more than 80%",
-        "Automated data entry of 100+ dealerships for internal recognition program",
-        "Gracefully cutover file upload process to modernized API",
-        "Optimized ActionCable performance for realtime competition app"
+        "Overhaul backend for internal performance tracking app. Completely automate user management and record entry for 5,000 employees",
+        "Build lightweight internal API to cache high-cost queries from third-party API",
+        "Modernized CI/CD for applications to reduce deployment time more than 80% by optimizing asset compilation and updating platform",
+        "Rewrite internal app with multitenancy to support new business units",
+        "Gracefully cutover file upload process to modernized API"
       ]
     },
     {
@@ -105,6 +106,10 @@
     {
       "name": "Outdoors",
       "keywords": ["Mountainbiking", "Backpacking"]
+    },
+    {
+      "name": "Game Dev",
+      "keywords": ["Godot"]
     }
   ],
   "certificates": [{
@@ -115,7 +120,8 @@
   }],
   "projects": [
         {
-      "name": "Gigbot",
+      "name": "",
+      "startDate": "2021-12-01",
       "description": "Aggregate YouTube videos for guitar practice",
       "highlights": [
         "PostgreSQL Full Text Search",
@@ -123,9 +129,15 @@
         "Magic Link Auth"
       ],
       "keywords": ["Guitar", "Learning", "Setlists"],
-      "roles": ["Engineer"],
-      "entity": "Personal",
-      "type": "application"
+      "roles": ["Gigbot"],
+      "entity": "Personal"
+    },
+        {
+      "name": "",
+      "startDate": "2023-01-01",
+      "roles": ["Hackernews CLI Reader"],
+      "description": "Easily Read HN via CLI tool built with Ink",
+      "highlights": ["CLI", "React"]
     }
   ]
 }

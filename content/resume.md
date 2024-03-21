@@ -1,6 +1,6 @@
 +++
 title = 'Alex Barry Resume'
-date = 2023-09-23T00:36:58-04:00
+date = 2024-01-01T00:36:58-04:00
 draft = false
 type = 'resume'
 +++
