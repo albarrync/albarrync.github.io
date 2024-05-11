@@ -1,6 +1,8 @@
 module alexb_blog
 
-go 1.20
+go 1.21
+
+toolchain go1.22.3
 
 require (
 	github.com/schnerring/hugo-mod-json-resume v0.0.0-20230917154624-399fd51ec1ba // indirect

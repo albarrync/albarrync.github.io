@@ -96,7 +96,6 @@ contentDir = "content"
       ]
     plugins = [
       "normalize-whitespace",
-      "toolbar",
       "copy-to-clipboard"
     ]
 
