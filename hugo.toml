@@ -1,7 +1,7 @@
 baseURL = "http://albarrync.github.io"
 languageCode = "en-us"
 title = "alexb"
-copyright = "Copyright © 2023"
+copyright = "Copyright © 2024"
 enableRobotsTXT = true
 contentDir = "content"
 
