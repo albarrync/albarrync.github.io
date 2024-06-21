@@ -181,13 +181,16 @@ Payment.last.subscribable_type #=> "LifetimeSubscription"
 Subscription.create(params[:subscription])
 
 # ... supercharged with nested attributes via delegated_types
-params = { subscription: { subscribable_type: "LifetimeSubscription",
+params = { subscription: { user_id: 16,
+                           cost: 5000,
+                           subscribable_type: "LifetimeSubscription",
                            subscribable_attributes: { was_gifted_lifetime_sub: true } } }
 
 # Permit extra type params for nesting in strong params
 def subscription_params
   params.require(:subscription)
     .permit(:user_id,
+            :cost,
             :subscribable_type,
             subscribable_attributes: [
                 :was_gifted_lifetime_sub,
