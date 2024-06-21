@@ -1,6 +1,6 @@
 +++
 title = "Exploring Rails delegated_type"
-date = "2024-05-09T22:00:00-04:00"
+date = "2024-06-15T22:00:00-04:00"
 author = "alexb"
 cover = ""
 tags = ["ruby", "rails", "technical"]
@@ -68,7 +68,7 @@ Let's digest these two approaches for a moment. We'll come back.
 
 #### from a bit closer -
 
-Using inheritance and building classes in OOP languages allows us to perform operations in a way that's fundamentally disparate from how we want to persist information into a database. Imagine a UML diagram vs. an Excel spreadsheet - they don't exactly play nicely with one another.
+Using inheritance and building classes in OOP languages allows us to perform operations in a way that's fundamentally disparate from how we want to persist information into a database. Imagine a UML diagram vs. an Excel spreadsheet - a single table from a UML diagram can look very similar to a single spreadsheet, but adding dynamic attributes and using their properties with other tables is not as simple as column/row = value.
 
 #### up close and personal, back to our example -
 
@@ -176,6 +176,26 @@ Subscription.last.discounted_cost #=> 999 cents
 
 # What type of subscription was this charge for?
 Payment.last.subscribable_type #=> "LifetimeSubscription"
+
+# The same old #create we know and love...
+Subscription.create(params[:subscription])
+
+# ... supercharged with nested attributes via delegated_types
+params = { subscription: { subscribable_type: "LifetimeSubscription",
+                           subscribable_attributes: { was_gifted_lifetime_sub: true } } }
+
+# Permit extra type params for nesting in strong params
+def subscription_params
+  params.require(:subscription)
+    .permit(:user_id,
+            :subscribable_type,
+            subscribable_attributes: [
+                :was_gifted_lifetime_sub,
+                :monthly_coupon_code,
+                :leap_year_registration
+            ]
+    )
+
 ```
 
 There are many more niceties that come with using `delegated_types` so it's a pattern worth checking out. In fact, there are still plenty of optimizations that could be done to this setup.
