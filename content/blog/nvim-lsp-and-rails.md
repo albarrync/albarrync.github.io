@@ -1,6 +1,6 @@
 ---
 title : "Setting Up Neovim LSP with Ruby and Rails"
-date : "2024-07-02T21:07:31-04:00"
+date : "2024-06-02T21:07:31-04:00"
 author : "alexb"
 tags : ["ruby", "rails", "technical", "neovim", "lsp"]
 description : ""
@@ -230,6 +230,7 @@ Don't forget, you can use `:checkhealth mason`
 3. Install LSP gem(s) of choice, make sure you can use their executable
 4. Install LSP via `:Mason`
 5. `:checkhealth mason`
+6. Run `:LspInfo` to see if you're attached to your LSP!
 
 # Auto Completion
 
