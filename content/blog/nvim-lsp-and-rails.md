@@ -1,6 +1,6 @@
 ---
 title : "Setting Up Neovim LSP with Ruby and Rails"
-date : "2024-06-02T21:07:31-04:00"
+date : "2024-07-02T21:07:31-04:00"
 author : "alexb"
 tags : ["ruby", "rails", "technical", "neovim", "lsp"]
 description : ""
