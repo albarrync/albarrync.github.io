@@ -272,7 +272,7 @@ require('nvim-cmp')                     -- New
 And to fill out the new file:
 
 ```lua
--- ~/.config/nvim/nvim-cmp.lua
+-- ~/.config/nvim/lua/nvim-cmp.lua
 
 local cmp = require'cmp'
 
